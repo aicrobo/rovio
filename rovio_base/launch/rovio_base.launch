@@ -1,0 +1,9 @@
+<launch>
+  <!-- Edit the parameters here for your Rovio -->
+  <node pkg="rovio_base" type="rovio_base" name="rovio_base" >
+    <param name="host" value="192.168.10.18" />
+    <param name="port" value="80" />
+    <param name="user" value="admin" />
+    <param name="pw" value="123456" />
+  </node>
+</launch>
